@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;InitDestroyMethodByAnotation&apos;&#x0D;&#x0A;- Original project: &apos;InitDestroyMethodByAnotation&apos;&#x0D;&#x0A;- Original element: &apos;com.learn.InitDestroyMethodByAnotation.App.java&apos;" description="Delete element" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.learn.InitDestroyMethodByAnotation{App.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1667409888093" subPackages="false" version="1.0"/>
+</session>

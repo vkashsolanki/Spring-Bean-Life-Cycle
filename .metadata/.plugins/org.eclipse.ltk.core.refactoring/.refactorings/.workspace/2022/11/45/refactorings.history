@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SpringCoreApp&apos; to &apos;InitDestroymethodByXml&apos;" description="Rename resource &apos;SpringCoreApp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/SpringCoreApp" name="InitDestroymethodByXml" stamp="1667408673640" updateReferences="true"/>
+</session>

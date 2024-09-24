@@ -1,0 +1,29 @@
+
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+  
+<hibernate-mapping>  
+<class name="com.entity.Person" table="persontable" discriminator-value="person">  
+<id name="id">  
+<generator class="increment"></generator>  
+</id>  
+  
+<discriminator column="type" type="string"></discriminator>  
+<property name="name"></property>  
+            
+<subclass name="com.entity.Student" discriminator-value="student">  
+<property name="fees"></property>  
+<property name="course"></property>  
+</subclass>  
+            
+<subclass name="com.entity.Employee" discriminator-value="employee">  
+<property name="job"></property>  
+<property name="salary"></property>  
+</subclass>  
+            
+</class>  
+            
+</hibernate-mapping>  
